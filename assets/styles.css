@@ -60,7 +60,7 @@ body {
   height: 50px;
   border-radius: 5px;
 }
-.logos img:last-child {
+.logos > img:last-child {
   height: 59px;
   width: auto;
 }
@@ -70,9 +70,10 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 2px;
-  color: #9c9c9c;
-  font-size: 13px;
-  line-height: 1;
+}
+.arrows img {
+  width: 15px;
+  height: auto;
 }
 /* frank badge */
 .user_badge {
@@ -103,7 +104,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1;              /* 100% = 1 */
+  line-height: 1;             
   letter-spacing: 0;
   color: #040E40;
   margin-bottom: 16px;
@@ -121,10 +122,9 @@ body {
 }
 /* ✓ */
 .check {
-  color: #32499A;  
-  font-weight: 700;
-  font-size: 15px;
-  flex-shrink: 0;  
+  width: 21px;
+  height: 13.5px;
+  flex-shrink: 0;
 }
 .permissions li span:not(.check) {
   font-family: 'Roboto', sans-serif;
